@@ -1,13 +1,20 @@
 package com.example.lib;
 
 
-import java.util.concurrent.TransferQueue;
-
-public class Autopark {
+public abstract class Autopark {
     public static void main(String[] args) {
-        Car car = new Car();
-        Bike bike = new Bike();
-        Tractor tractor = new Tractor();
-
+            Traktor traktor =new Traktor();
+            Car car = new Car();
+            Bike bike = new Bike();
+            traktor.drive();
+            traktor.honk();
+            traktor.StartMotor();
+            car.drive();
+            car.honk();
+            car.StartMotor();
+            bike.drive();
+            bike.honk();
+        }
     }
-}
+
+

@@ -1,9 +1,14 @@
 package com.example.lib;
 
-abstract class Properties {
+
+abstract class Transportt{
+
     abstract void drive();
     abstract void honk();
 }
-interface IStart{
 
+interface Istart{
+    void StartMotor();
 }
+
+
