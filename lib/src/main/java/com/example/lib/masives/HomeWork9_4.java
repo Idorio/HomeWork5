@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.masives;
 
 public class HomeWork9_4 {
     public static void main(String[] args) {
